@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FolderIconChanger.exe" size="124888">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FolderIconChanger.exe" size="125400">
       <assemblyIdentity name="FolderIconChanger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HJOQh0UVjtbNJIb008n28RBCtnjVMtkYZXAqTYO2yVM=</dsig:DigestValue>
+        <dsig:DigestValue>4js+BnNNbMIMqsdvdjJDrfAqja8UJDbkDw+i9V+CbJw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -16,8 +16,9 @@ namespace FolderIconChanger {
 	    private ArrayList pictureBoxes = new ArrayList();
 	    private ArrayList FilePaths = new ArrayList();
 	    private bool IncludeSubFolders = false;
+	    ToolTip tt = new ToolTip();
 
-	    private string selectedIcon;
+        private string selectedIcon;
 
         public IconModification() {
             InitializeComponent();
@@ -101,7 +102,7 @@ namespace FolderIconChanger {
 		        }
 
 		        try {
-                    var files = Directory.GetFiles(browserDialog.SelectedPath, "*.ico", SearchOption.AllDirectories);
+                    var files = Directory.GetFiles(browserDialog.SelectedPath, "*.ico", SearchOption.TopDirectoryOnly);
 
                     foreach (var f in files)
                     {
@@ -109,12 +110,14 @@ namespace FolderIconChanger {
 	                    var picBox = new PictureBox
 	                    {
 		                    ImageLocation = f,
-		                    Size = new Size(23, 23),
-		                    SizeMode = PictureBoxSizeMode.Zoom
+		                    Size = new Size(35, 35),
+		                    SizeMode = PictureBoxSizeMode.StretchImage
+
 	                    };
 						
 	                    iconDisplay.Controls.Add(picBox);
 	                    picBox.Click += clickPic;
+	                    picBox.MouseHover += hoverPic;
 	                    picBox.Cursor = Cursors.Hand;
                         pictureBoxes.Add(picBox);
                     }
@@ -124,6 +127,11 @@ namespace FolderIconChanger {
                     
 		        }
 			}
+        }
+
+        private void hoverPic(object sender, EventArgs e) {
+	        var picBox = (PictureBox) sender;
+			tt.SetToolTip(picBox, Path.GetFileName(picBox.ImageLocation));
         }
 
         private void clickPic(object sender, EventArgs e) {

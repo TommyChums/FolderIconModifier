@@ -11,3 +11,4 @@ C:\Users\ricar\Desktop\C# Projects\Personal\FolderIconChanger\FolderIconChanger\
 C:\Users\ricar\Desktop\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\FolderIconChanger.application
 C:\Users\ricar\Desktop\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.exe.manifest
 C:\Users\ricar\Desktop\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.application
+C:\Users\ricar\Desktop\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.csprojAssemblyReference.cache

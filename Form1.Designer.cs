@@ -65,7 +65,7 @@
             // 
             // iconDisplay
             // 
-            this.iconDisplay.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.iconDisplay.AutoScroll = true;
             this.iconDisplay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.iconDisplay.Location = new System.Drawing.Point(12, 106);
             this.iconDisplay.Name = "iconDisplay";
