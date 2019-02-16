@@ -202,6 +202,5 @@ namespace FolderIconChanger {
 
 	        MessageBox.Show("Completed with " + i + " errors.");
         }
-		
     }
 }
