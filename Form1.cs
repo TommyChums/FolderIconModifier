@@ -212,7 +212,7 @@ namespace FolderIconChanger {
 
 	                    var picBox = new PictureBox {
 		                    ImageLocation = f,
-		                    Size = new Size(70, 100),
+		                    Size = new Size(1, 100),
 		                    SizeMode = PictureBoxSizeMode.StretchImage
 
 	                    };
