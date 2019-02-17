@@ -41,6 +41,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.downloadStatus = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // folderSelector
@@ -170,11 +171,21 @@
     "efaults button.";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // downloadStatus
+            // 
+            this.downloadStatus.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.downloadStatus.Location = new System.Drawing.Point(12, 454);
+            this.downloadStatus.Name = "downloadStatus";
+            this.downloadStatus.ReadOnly = true;
+            this.downloadStatus.Size = new System.Drawing.Size(775, 13);
+            this.downloadStatus.TabIndex = 14;
+            // 
             // IconModification
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 478);
+            this.Controls.Add(this.downloadStatus);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -188,7 +199,7 @@
             this.Controls.Add(this.iconSelector);
             this.Controls.Add(this.folderSelector);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(816, 489);
+            this.MaximumSize = new System.Drawing.Size(816, 517);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "IconModification";
@@ -214,6 +225,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox downloadStatus;
     }
 }
 
