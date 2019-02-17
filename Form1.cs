@@ -104,11 +104,9 @@ namespace FolderIconChanger {
 		        try {
                     var files = Directory.GetFiles(browserDialog.SelectedPath, "*.ico", SearchOption.TopDirectoryOnly);
 
-                    foreach (var f in files)
-                    {
+                    foreach (var f in files) {
 
-	                    var picBox = new PictureBox
-	                    {
+	                    var picBox = new PictureBox {
 		                    ImageLocation = f,
 		                    Size = new Size(70, 65),
 		                    SizeMode = PictureBoxSizeMode.StretchImage
