@@ -93,6 +93,9 @@ namespace FolderIconChanger {
                     BeginUpdate();
                 }
             }
+            else {
+	            MessageBox.Show("No Update Available");
+            }
         }
 
         private void BeginUpdate()
