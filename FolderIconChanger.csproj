@@ -23,8 +23,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <UpdateUrl>https://github.com/TommyChums/FolderIconModifier/tree/master/Icon%2520Changer/</UpdateUrl>
-    <ApplicationRevision>24</ApplicationRevision>
+    <UpdateUrl>https://raw.githubusercontent.com/TommyChums/FolderIconModifier/master/Icon%2520Changer/</UpdateUrl>
+    <ApplicationRevision>26</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
