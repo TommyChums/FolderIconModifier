@@ -67,11 +67,13 @@ namespace FolderIconChanger {
             if (e.Error != null)
             {
                 MessageBox.Show("ERROR: Could not retrieve new version of the application. Reason: \n" + e.Error.Message + "\nPlease report this error to the system administrator.");
+                downloadStatus.Clear();
                 return;
             }
             else if (e.Cancelled == true)
             {
                 MessageBox.Show("The update was cancelled.");
+                downloadStatus.Clear();
             }
 
             // Ask the user if they would like to update the application now.
@@ -94,7 +96,8 @@ namespace FolderIconChanger {
                 }
             }
             else {
-	            MessageBox.Show("No Update Available");
+                MessageBox.Show("No Update Available");
+                downloadStatus.Clear();
             }
         }
 
@@ -119,11 +122,13 @@ namespace FolderIconChanger {
             if (e.Cancelled)
             {
                 MessageBox.Show("The update of the application's latest version was cancelled.");
+                downloadStatus.Clear();
                 return;
             }
             else if (e.Error != null)
             {
                 MessageBox.Show("ERROR: Could not install the latest version of the application. Reason: \n" + e.Error.Message + "\nPlease report this error to the system administrator.");
+                downloadStatus.Clear();
                 return;
             }
 
