@@ -12,17 +12,17 @@ C:\Users\ricar\Desktop\C# Projects\Personal\FolderIconChanger\FolderIconChanger\
 C:\Users\ricar\Desktop\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.exe.manifest
 C:\Users\ricar\Desktop\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.application
 C:\Users\ricar\Desktop\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.csprojAssemblyReference.cache
-E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\FolderIconChanger.exe.config
-E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\FolderIconChanger.exe.manifest
-E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\FolderIconChanger.application
-E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\FolderIconChanger.exe
-E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\FolderIconChanger.pdb
 E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.csprojAssemblyReference.cache
 E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.IconModification.resources
 E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.Properties.Resources.resources
 E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.csproj.GenerateResource.cache
 E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.csproj.CoreCompileInputs.cache
-E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.exe.manifest
-E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.application
-E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.exe
-E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\FolderIconChanger.pdb
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\Folder Icon Changer.exe.config
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\Folder Icon Changer.exe.manifest
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\Folder Icon Changer.application
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\Folder Icon Changer.exe
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\bin\Debug\Folder Icon Changer.pdb
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\Folder Icon Changer.exe.manifest
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\Folder Icon Changer.application
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\Folder Icon Changer.exe
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FolderIconChanger\FolderIconChanger\obj\Debug\Folder Icon Changer.pdb

@@ -32,8 +32,7 @@ namespace FolderIconChanger {
 
         private void UpdateApplication()
         {
-            if (ApplicationDeployment.IsNetworkDeployed)
-            {
+            if (ApplicationDeployment.IsNetworkDeployed) {
                 ApplicationDeployment ad = ApplicationDeployment.CurrentDeployment;
                 ad.CheckForUpdateCompleted += new CheckForUpdateCompletedEventHandler(ad_CheckForUpdateCompleted);
                 ad.CheckForUpdateProgressChanged += new DeploymentProgressChangedEventHandler(ad_CheckForUpdateProgressChanged);
@@ -304,6 +303,10 @@ namespace FolderIconChanger {
 
 	        MessageBox.Show("Completed with " + i + " errors.");
         }
-		
+
+        private void checkForUpdate(object sender, LinkLabelLinkClickedEventArgs e) {
+	        var link = (LinkLabel) sender;
+			UpdateApplication();
+        }
     }
 }
