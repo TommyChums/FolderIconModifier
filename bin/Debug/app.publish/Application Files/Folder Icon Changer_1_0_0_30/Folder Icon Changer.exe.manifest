@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Folder Icon Changer.exe" version="1.0.0.30" publicKeyToken="2a02803e7b2589ac" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="controller_AIP_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Folder Icon Changer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Folder Icon Changer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Folder Icon Changer.exe" size="238552">
+      <assemblyIdentity name="Folder Icon Changer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2jYXkxGS2lZe/1vWJcudrSEQ/JCbwFfzxiXYdTAOX1c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="controller_AIP_icon.ico" size="108174">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tEwd9sLkaf6faYlQoLWs6nvEtVnldRaqhqyV5J9yAqw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Folder Icon Changer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RICARDO-NEW-PC\ricar" issuerKeyHash="ea259cd99b843056975717113606e8e1de79067f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ya+JHzblaGsAktTg/wMw4mPkNcEDnXfiaGF6DJsZ1go=</DigestValue></Reference></SignedInfo><SignatureValue>bDn+2QAvPsbGcP7Z1Z4DjNyHHx1CRkjM72gUqQj9AgF7h9NDds8kDFuzdZsQONr/gUmpftWH+LAYUSp4AAV189Iiy0IbrDc/2g4KjXYj58/qJOiBt4HLxm8cMVMHWTdlZT7rg9qbaeqBMG27Gv+/wjPTp2aO/1Ow6j6LohNuS34=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s0yuJwnjeAca9iHFbxduQELzoRyhP7yG4xpWePxUA50VAw6NBYOrwT1R4XdVXa1+R4u5xKdFF/FVx6TpuCLA2pw+AUSzlG+3h3T4LmVx0KEPYh7K5Gy6O4IgF9FvR914U25ZC2Xh/i/jZrzoxE9h9A6tOfkK2RGGx1g/Ni2hXQE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0ad6199b0c7a6168e2779d03c135e463e23003ffe0d492006b68e5361f89afc9" Description="" Url=""><as:assemblyIdentity name="Folder Icon Changer.exe" version="1.0.0.30" publicKeyToken="2a02803e7b2589ac" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RICARDO-NEW-PC\ricar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nDBe3rRTrSM1nz7SmWPO4luHV8zAYQ8BWHnuksoZqrA=</DigestValue></Reference></SignedInfo><SignatureValue>XTuhQiXQgmFWkZQyHmmGxTTlTzc1Sy6XsPCjVBAnzkOi0/tctwGnJ0OKG3/0IZeYJsLmhEcX1Bh9SVYj4hWLhI45uPZgji67iMB1sqi4WmXK6n8ptb+YGu+Ljr5KjbmWFXRWejpXA3EgTZpTsfeak046Pi/iBof6dBOLMSYGY7I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s0yuJwnjeAca9iHFbxduQELzoRyhP7yG4xpWePxUA50VAw6NBYOrwT1R4XdVXa1+R4u5xKdFF/FVx6TpuCLA2pw+AUSzlG+3h3T4LmVx0KEPYh7K5Gy6O4IgF9FvR914U25ZC2Xh/i/jZrzoxE9h9A6tOfkK2RGGx1g/Ni2hXQE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQITWoqMXPr7pMcEAUk/NzbzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUgBJAEMAQQBSAEQATwAtAE4ARQBXAC0AUABDAFwAcgBpAGMAYQByMB4XDTE5MDIxNTE3MDEyM1oXDTIwMDIxNTIzMDEyM1owMzExMC8GA1UEAx4oAFIASQBDAEEAUgBEAE8ALQBOAEUAVwAtAFAAQwBcAHIAaQBjAGEAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAs0yuJwnjeAca9iHFbxduQELzoRyhP7yG4xpWePxUA50VAw6NBYOrwT1R4XdVXa1+R4u5xKdFF/FVx6TpuCLA2pw+AUSzlG+3h3T4LmVx0KEPYh7K5Gy6O4IgF9FvR914U25ZC2Xh/i/jZrzoxE9h9A6tOfkK2RGGx1g/Ni2hXQECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCkzqgweqYS6itC74JdHCLKJfWh+/OJHnoUW/U4c+uF1y9OvM424Z6lgpVvAxAWOgrhgpPBskY9UUCdATQAcGXr5yZmUNMSEqJx6bC6MUuSCNf6wU2flN/zJOF9LLbAx+zKIO7hWcwiDqxcsctaB/RPKv0hm7yCDE1OxeqfXBpKJw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
